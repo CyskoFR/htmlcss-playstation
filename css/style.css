@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
 }
 
 .header-top {
@@ -14,8 +18,51 @@ header {
     background-color: black;
 }
 
+header .navbar {
+    background-color: white;
+}
+
 .header_logo-sony svg {
     height: 14px;
     margin: 6px 12px;
     justify-self: end;
+}
+
+.navbar-toggler {
+    border: 1px solid lightgrey;
+    height: 38px;
+}
+
+.navbar-toggler:hover {
+    background-color: #62a4df;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.dropdown .fa-chevron-down {
+    height: 12px;
+    fill: #999999;
+}
+
+.dropdown .nav-link:hover svg {
+    fill: #0070d1;
+}
+
+.header_right button {
+    background-color: #363636;
+    border-radius: 24px;
+    padding: 6px 16px;
+    margin: 0 8px;
+}
+
+.header_right svg {
+    height: 28px;
+}
+
+.header_right svg:hover {
+    transform: scale(110%);
 }

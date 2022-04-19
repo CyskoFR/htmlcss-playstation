@@ -2,29 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
+/* header */
 header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100px;
 }
 
 .header-top {
     display: flex;
     justify-content: end;
     background-color: black;
+    height: 28px;
 }
 
 header .navbar {
     background-color: white;
+    height: 72px;
+}
+
+.navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.384);
 }
 
 .header_logo-sony svg {
     height: 14px;
-    margin: 6px 12px;
+    margin: 0 12px;
     justify-self: end;
 }
 
@@ -34,13 +40,14 @@ header .navbar {
 }
 
 .navbar-toggler:hover {
-    background-color: #62a4df;
+    box-shadow: 1px 1px 4px black;
 }
 
 .nav-link {
     font-size: 16px;
     font-weight: 600;
     color: black;
+    margin-left: 4px;
 }
 
 .dropdown .fa-chevron-down {
@@ -66,3 +73,44 @@ header .navbar {
 .header_right svg:hover {
     transform: scale(110%);
 }
+
+/* /header */
+
+/* main */
+.hero {
+    margin-top: 100px;
+    height: 670px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-x: center;
+}
+
+.hero_title, .hero_description {
+    color: white;
+}
+
+.hero_card {
+    height: 100%;
+}
+.hero_card-logo {
+    height: 38px;
+}
+
+.hero_title {
+    font-size: 36px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.hero_description {
+    font-size: 20px;
+    width: 100%;
+}
+
+.hero .btn {
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 18px;
+    margin: 16px 0 50px;
+}
+
+/* /main */

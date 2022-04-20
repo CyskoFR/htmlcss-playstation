@@ -10,6 +10,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .header-top {
@@ -83,9 +84,16 @@ main {
 
 .hero {
     height: 670px;
-    background-image: url(../img/jumbo-bg.png);
     background-position-x: center;
     background-size: cover;
+}
+
+.hero .container {
+    height: 100%;
+}
+
+.hero1_bg {
+    background-image: url(../img/jumbo-bg.png);
 }
 
 .hero_title, .hero_description {
@@ -95,6 +103,7 @@ main {
 .hero_card {
     height: 100%;
 }
+
 .hero_card-logo {
     height: 38px;
 }
@@ -117,13 +126,121 @@ main {
     margin: 16px 0 50px;
 }
 
-.hero .row {
-    
-}
-
-.hero .row img {
+.sub-row-card img {
     width: 100%;
     border-radius: 18px;
+}
+
+.ps5-show-box_title {
+    margin-top: 64px;
+}
+
+.ps5-show-box_main {
+    margin-top: 64px;
+}
+
+.ps5-show-box h4 {
+    font-size: 16px;
+    color: #0070d1;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.ps5-show-box h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.ps5-show-box button {
+    background-color: #2d64e6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.ps5-show-box p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.ps5-show-box h2 {
+    font-weight: 600;
+    font-size: 42px;  
+}
+
+.ps5-show-box img {
+    width: 100%;
+}
+
+.ps5-show-box_icon-row {
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.ps5-show-box_icon-row_card {
+    position: relative;
+    opacity: 70%;
+}
+
+.ps5-show-box_icon-row_card p {
+    color: black;
+}
+
+.ps5-show-box_icon-row img {
+    padding: 0 10%;
+}
+
+.marker {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #0070d1;
+    opacity: 0;
+}
+
+.ps5-show-box_icon-row .active, .active .marker, .ps5-show-box_icon-row_card:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ps5-show-box_icon-row_card:hover .marker {
+    opacity: 1;
+}
+
+.hero2_bg {
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.hero2_logo {
+    height: 140px;
+}
+
+.nuove-uscite {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.nuove-uscite h3 {
+    font-size: 32px;
+}
+
+.nuove-uscite p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nuove-uscite_card img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.nuove-uscite_card p {
+    font-size: 16px;
 }
 
 /* /main */

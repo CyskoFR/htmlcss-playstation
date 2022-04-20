@@ -77,11 +77,15 @@ header .navbar {
 /* /header */
 
 /* main */
+main {
+    padding-top: 100px;
+}
+
 .hero {
-    margin-top: 100px;
     height: 670px;
     background-image: url(../img/jumbo-bg.png);
     background-position-x: center;
+    background-size: cover;
 }
 
 .hero_title, .hero_description {
@@ -102,7 +106,7 @@ header .navbar {
 }
 
 .hero_description {
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
 }
 
@@ -111,6 +115,15 @@ header .navbar {
     color: white;
     border-radius: 18px;
     margin: 16px 0 50px;
+}
+
+.hero .row {
+    
+}
+
+.hero .row img {
+    width: 100%;
+    border-radius: 18px;
 }
 
 /* /main */

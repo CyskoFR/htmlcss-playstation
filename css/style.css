@@ -139,19 +139,19 @@ main {
     margin-top: 64px;
 }
 
-.ps5-show-box h4 {
+.show-box h4 {
     font-size: 16px;
     color: #0070d1;
     font-weight: 700;
     margin-bottom: 2px;
 }
 
-.ps5-show-box h1 {
+.show-box h1 {
     font-weight: 700;
     font-size: 48px;
 }
 
-.ps5-show-box button {
+.show-box button {
     background-color: #2d64e6;
     color: white;
     padding: 8px 16px;
@@ -159,19 +159,19 @@ main {
     font-weight: 600;
 }
 
-.ps5-show-box p {
+.show-box p {
     color: grey;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
-.ps5-show-box h2 {
+.show-box h2 {
     font-weight: 600;
     font-size: 42px;  
 }
 
-.ps5-show-box img {
+.show-box img {
     width: 100%;
 }
 
@@ -241,6 +241,17 @@ main {
 
 .nuove-uscite_card p {
     font-size: 16px;
+}
+
+.esplora .row h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.esplora .row p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
 }
 
 /* /main */

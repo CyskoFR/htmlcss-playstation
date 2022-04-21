@@ -282,21 +282,25 @@ main {
     width: 140px;
 }
 
-.playstationplus-hero {
-    background-color: #bebcbb;
+.ps-service_hero {
     height: 400px;
     overflow-x: hidden;
 }
 
-.ps-plus_logo-box img {
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.ps-service_logo-box img {
     width: 70%;
 }
 
-.playstationplus-hero p {
+.ps-service_hero p {
     font-weight: 600;
+    font-size: 18px;
 }
 
-.playstationplus-hero button {
+.ps-service_hero button {
     background-color: #d9dadc;
     border: none;
     padding: 8px 16px;
@@ -311,6 +315,15 @@ main {
     padding: 0;
     border-radius: 0;
     border: none;
+}
+
+.ps-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.ps-now button {
+    color: black;
 }
 
 /* /main */

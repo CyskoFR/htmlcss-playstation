@@ -149,9 +149,20 @@ main {
     border-radius: 30px;
 }
 
+.sub-row-card button {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+
 .sub-row-card img {
     width: 100%;
     border-radius: 18px;
+    cursor: pointer;
+}
+
+.sub-row-card img:hover {
+    transform: translateY(-10px);
 }
 
 .ps5-show-box_title {
@@ -261,6 +272,11 @@ main {
 .nuove-uscite_card img {
     width: 100%;
     border-radius: 16px;
+    cursor: pointer;
+}
+
+.nuove-uscite_card img:hover {
+    transform: scale(105%);
 }
 
 .nuove-uscite_card p {
@@ -316,6 +332,11 @@ main {
     padding: 0;
     border-radius: 0;
     border: none;
+}
+
+.sconti button:hover img {
+    transition: 0.3s;
+    border-radius: 20%;
 }
 
 .ps-now {

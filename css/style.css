@@ -33,6 +33,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+    box-shadow: 1px 1px 4px grey;
 }
 
 .header-top {
@@ -183,7 +184,7 @@ main {
 
 .show-box p {
     color: grey;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
 }
@@ -303,6 +304,13 @@ main {
     color: #0070d1;
     font-size: 16px;
     font-weight: 700;
+}
+
+.sconti button {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
 }
 
 /* /main */

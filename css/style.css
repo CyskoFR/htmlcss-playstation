@@ -5,6 +5,22 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.btn:hover {
+    outline-offset: 2px;
+}
+
+.btn_red:hover {
+    outline: 2px solid #cd3d0f;
+}
+
+.btn_blue:hover {
+    outline: 2px solid #2d64e6;
+}
+
+.btn_black:hover {
+    outline: 2px solid #5c636a;
+}
+
 /* header */
 header {
     position: fixed;
@@ -122,8 +138,8 @@ main {
 .hero .btn {
     background-color: #cd3d0f;
     color: white;
-    border-radius: 18px;
     margin: 16px 0 50px;
+    border-radius: 30px;
 }
 
 .sub-row-card img {
@@ -252,6 +268,23 @@ main {
     font-size: 18px;
     font-weight: 600;
     margin-top: 12px;
+    flex-grow: 1;
 }
 
+.esplora .row button {
+    width: 140px;
+}
+
+.playstationplus-hero {
+    background-color: #bebcbb;
+    height: 420px;
+}
+
+.playstationplus-hero img {
+    width: 100%;
+}
+
+.playstationplus-hero button {
+    background-color: #d9dadc;
+}
 /* /main */

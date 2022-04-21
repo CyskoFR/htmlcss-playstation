@@ -21,6 +21,12 @@
     outline: 2px solid #5c636a;
 }
 
+.btn_gray:hover {
+    outline: 2px solid #5c636a;
+    background-color: #5c636a;
+    color: white;
+}
+
 /* header */
 header {
     position: fixed;
@@ -277,14 +283,26 @@ main {
 
 .playstationplus-hero {
     background-color: #bebcbb;
-    height: 420px;
+    height: 400px;
+    overflow-x: hidden;
 }
 
-.playstationplus-hero img {
-    width: 100%;
+.ps-plus_logo-box img {
+    width: 70%;
+}
+
+.playstationplus-hero p {
+    font-weight: 600;
 }
 
 .playstationplus-hero button {
     background-color: #d9dadc;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 18px;
+    color: #0070d1;
+    font-size: 16px;
+    font-weight: 700;
 }
+
 /* /main */

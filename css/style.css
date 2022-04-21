@@ -341,5 +341,56 @@ main {
     transition: 0.3s;
     border-radius: 50%;
 }
-
 /* /main */
+
+/* footer */
+footer {
+    background-color: #00439c;
+    color: white;
+}
+
+footer .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer_logo-ps img {
+    height: 90px;
+}
+
+.footer_logo-ps p {
+    font-size: 20px;
+    margin: 36px 0;
+}
+
+.footer_logo-ps i {
+    font-size: 26px;
+    margin-right: 14px;
+}
+
+.footer-link-box li {
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+.footer-link-box nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link-box nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.footer_logo-sie img {
+    height: 70px;
+    margin-bottom: 18px;
+}
+
+.footer_logo-sie p a {
+    color: white;
+}
+
+/* /footer */
